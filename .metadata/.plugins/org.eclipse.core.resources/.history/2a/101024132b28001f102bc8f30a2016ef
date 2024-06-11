@@ -1,0 +1,19 @@
+package usuarios;
+
+import ferramentas.aparelhoTelefonico.MotorolaI205;
+import ferramentas.iphone.Iphone;
+
+public class Usuario {
+	public static void main(String[] args) {
+		
+		Iphone iphone = new Iphone();
+		
+		MotorolaI205 motorola = new MotorolaI205();
+		
+		motorola.ligar("11 9 8214-5847");
+		iphone.ligar("11 9 5214-5847");
+		
+		
+		
+	}
+}

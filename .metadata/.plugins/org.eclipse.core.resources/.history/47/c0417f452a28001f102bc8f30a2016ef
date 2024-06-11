@@ -1,0 +1,14 @@
+package usuarios;
+
+import ferramentas.iphone.Iphone;
+
+public class Usuario {
+	public static void main(String[] args) {
+		Iphone iphone = new Iphone();
+		
+		iphone.ligar("11 95214-5847");
+		
+		
+		
+	}
+}

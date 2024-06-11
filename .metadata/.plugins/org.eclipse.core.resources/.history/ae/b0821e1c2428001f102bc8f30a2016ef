@@ -1,0 +1,5 @@
+package ferramentas.aparelhoTelefonico;
+
+public interface AparelhoTelefonico {
+
+}

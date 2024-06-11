@@ -1,0 +1,15 @@
+package ferramentas.navegadorInternet;
+
+public class Edge implements NavegadorInternet{
+	
+	public boolean conexaoComInternet() {
+		return true;
+	}
+	
+	public void exibirPagina(){
+		conexaoComInternet();
+		System.out.println("NAVEGANDO COM O EDGE!");
+	}
+	
+	adi
+}

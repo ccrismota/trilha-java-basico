@@ -1,0 +1,20 @@
+package ferramentas.iphone;
+
+import ferramentas.aparelhoTelefonico.AparelhoTelefonico;
+import ferramentas.navegadorInternet.NavegadorInternet;
+import ferramentas.reprodutorMusical.reprodutorMusical;
+
+public class Iphone implements AparelhoTelefonico, reprodutorMusical, NavegadorInternet {
+	
+	public void ligar(String numero) {
+		System.out.println("LIGANDO DO MEU IPHONE");		
+	}
+	
+	public void atender() {
+		System.out.println("ATENDENDO DO MEU IPHONE");				
+	}
+	
+	public void iniciarCorreioVoz() {
+		System.out.println("INICIANDO CORREIO DE VOZ DO MEU IPHONE");				
+	}
+}
